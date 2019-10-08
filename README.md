@@ -1,5 +1,5 @@
 # Django-Polling-App
-# This is a Django Polling Application Project.
+# This is a Django Polls Application Project.
 
 
 The Polls Questions are as follows:
@@ -9,3 +9,5 @@ The Polls Questions are as follows:
 3) All 4-digit palindromic numbers are definetely divisible by which of the following numbers?
 4) Can every even integer except 2 be expressed as sum of two primes?
 5) What's your name?
+
+Fork and Clone this repository to enjoy the polls app.
