@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+	<title>shivam</title>
+	<link rel = "stylesheet" type = "text/css" href = "{% static 'polls/bootstrap-4.3.1-dist/css/bootstrap.min.css' %}"/>
+	<link rel = "stylesheet" type = "text/css" href = "{% static 'polls/style.css' %}"/>
+</head>
+<body>
+<hr>
+<p>Header</p>
+{% include "polls/header.html" %}
+<div class="jumbotron">
+    <div class="container">
+
+		{% block main_content %}
+		{% endblock %}
+		<br>
+		{% include "polls/footer.html" %}
+	</div>
+</div>
+
+</body>
+</html>

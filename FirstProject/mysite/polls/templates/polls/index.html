@@ -1,0 +1,21 @@
+{% extends 'polls/base.html' %}
+{% block main_content %}
+<h3><marquee>Welcome to KSR polling APP</marquee></h3>
+<br>
+<h4> Choose a Question Please</h4>
+<br>
+<br>
+
+{% if latest_questions %}
+	<ul>
+		{% for question in latest_questions %}
+			<li><a href="{% url 'polls:detail' question.id%}"><b>{{question.question_text}}</b></a></li>
+		{% endfor %}
+	</ul>
+	
+{% else %}
+	<p>You don't have any questions. Please add some.</p>
+{% endif %}
+
+
+{% endblock %}
