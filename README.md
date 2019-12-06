@@ -4,11 +4,11 @@
 
 The Polls Questions are as follows:
 
-- Representation of data structure in memory is known as?
-- Three positive integers a, b and c will never satisfy the equation, a^n + b^n = c^n for which of the following values of n?
-- All 4-digit palindromic numbers are definetely divisible by which of the following numbers?
-- Can every even integer except 2 be expressed as sum of two primes?
-- What's your name?
+- `Representation of data structure in memory is known as?`
+- `Three positive integers a, b and c will never satisfy the equation, a^n + b^n = c^n for which of the following values of n?`
+- `All 4-digit palindromic numbers are definetely divisible by which of the following numbers?`
+- `Can every even integer except 2 be expressed as sum of two primes?`
+- `What's your name?`
 
 Fork and Clone this repository to enjoy the polls app.
 
